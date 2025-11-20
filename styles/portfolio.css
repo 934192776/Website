@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: rgb(0, 0, 0);
+  color: rgb(66, 56, 56);
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -25,7 +25,7 @@ h6 {
 h1 {
   font-size: 28px;
   line-height: 1.5;
-  color: rgb(74, 72, 75);
+  color: rgb(58, 54, 59);
 }
 
 h2 {
@@ -55,7 +55,6 @@ p {
 
 .profile {
   display: flex;
-  align-items:center;
   gap:20px;
   margin-left: 20px;
   margin-right: 20px;
@@ -117,12 +116,13 @@ p {
 }
 
 .pink-bg-container{
-  background: var(--secondary-color);
+  color: rgb(87, 82, 82);
   padding: 14px;
   border-radius: 20px;
   display: flex;
   align-items: center;
   gap:15px;
+  background-color: #f696bc;
 }
 
 .into-text {
@@ -140,7 +140,7 @@ p {
 
 .resume-card {
   background-color: white;
-  padding: 40px;
+  padding: 30px;
   border-radius: 20px; 
   margin-right: 10px;
 }
@@ -224,6 +224,7 @@ p {
   margin: auto;
   padding: 2rem;
   align-items: center;
+  border-radius: 20px;
 }
 
 .content-container {
@@ -286,20 +287,20 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #272142;
+  color: #605590;
   transition: all 100ms ease-in-out;
 }
 
 nav a:hover,
 nav li.active a {
-  color: var(--branding-color);
+  color: rgb(163, 54, 230);
 }
 
 .btn {
   text-decoration: none;
   padding: 5px 10px;
   border-radius: 20px;
-  font-size: 15px;
+  font-size: 17px;
   display:inline-block;
   border-color: rgb(187, 134, 236);
 }
@@ -314,7 +315,7 @@ footer {
 }
 
 footer .contact-box {
-  background: var(--secondary-color);
+  background: white;
   padding: 30px 120px;
   border-radius: 10px;
 }
@@ -335,11 +336,10 @@ footer .email-link:hover {
 
 footer .social-links a {
   margin: 0 20px;
-  color: var(--branding-color);
-  background: var(--secondary-color);
+  color: rgb(221, 147, 241);
   padding: 10px 14px;
   border-radius: 50%;
-  font-size: 18px;
+  font-size: 24px;
   transition: all 100ms ease-in-out;
 }
 

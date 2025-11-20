@@ -2,7 +2,6 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: linear-gradient(to bottom, #1e293b, #0f172a);
-  color: #f5f5f5;
 }
 
 .header {
@@ -15,7 +14,6 @@ body {
 
 .header nav a {
   margin-left: 1rem;
-  color: #93eafd;
   text-decoration: none;
 }
 
@@ -59,20 +57,6 @@ textarea {
   border: none;
 }
 
-button {
-  padding: 0.75rem;
-  background: #a83bf6;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.tech {
-  max-width:1100px;
-  text-decoration: none;
-  color:red;
-}
 
 footer {
   text-align: center;
