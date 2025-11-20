@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #fae7f8;
+  background-color: #faf5fa;
   font-family: var(--default-font-family);
 }
 
@@ -37,9 +37,13 @@ h3 {
   font-size: 18px;
 }
 
+h3.text-center a {
+  text-decoration: none;
+}
+
 p {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 30px;
 }
 
@@ -297,12 +301,12 @@ nav li.active a {
   border-radius: 20px;
   font-size: 15px;
   display:inline-block;
-  border-color: var(--secondary-color);
+  border-color: rgb(187, 134, 236);
 }
 
 .btn-branding {
   background-color: white;
-  color:var(--secondary-color);
+  color:rgb(169, 100, 233);
 }
 
 footer {
