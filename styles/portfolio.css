@@ -228,11 +228,10 @@ p {
 }
 
 .project-card {
-  background-color: #fcfafc;
+  background-color: #f6e1f6;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  overflow: hidden;
-  transition: transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.5s;
 }
 
 .project-card:hover {
@@ -240,11 +239,9 @@ p {
 }
 
 .project-preview {
-  height:450px;
+  height:500px;
   display:flex;
   align-items: center;
-  overflow: hidden;
-  background-color: #f8f3f9;
 }
 
 .project-preview img{
