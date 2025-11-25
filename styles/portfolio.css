@@ -48,7 +48,7 @@ p {
 }
 
 .profile-container {
-  max-width: 1100px;
+  max-width: 1000px;
   margin: auto;
   padding: 1rem;
 }
@@ -96,7 +96,7 @@ p {
   flex:1; 
   width: auto;
   height: auto;
-  padding: 0;
+  padding: 30px
   background: transparent;
 }
 
@@ -122,7 +122,7 @@ p {
   display: flex;
   align-items: center;
   gap:15px;
-  background-color: #f696bc;
+  background-color: #f9dee8;
 }
 
 .into-text {
