@@ -48,9 +48,11 @@ p {
 }
 
 .profile-container {
+  gap:2rem;
   max-width: 1000px;
   margin: auto;
-  padding: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .profile {
@@ -112,10 +114,10 @@ p {
 }
 
 .logo {
-  background: transparent;
-  width:130px;
+  width:160px;
+  height: 150px;
   object-fit: contain;
-  border:none;
+  border-radius:20px;
 }
 
 .pink-bg-container{
