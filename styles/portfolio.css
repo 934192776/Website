@@ -211,11 +211,24 @@ p {
   max-width: 240px;
 }
 
-.resume-content {
+.resume-content h2 + p {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    margin-top: -14px;
+    margin-bottom: -10px;
   }
+
+.resume-tools h1.one-column-list {
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+.resume-tools p {
+    text-align: center;
+    margin: 2px 0;
+    line-height: 1.5;
+}
 
 .contact {
   background-color: white;
@@ -247,19 +260,29 @@ p {
   border-radius: 20px;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 30px;
+}
+
 .project-card {
   background-color: #f6e1f6;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
   transition: transform 0.5s;
+  flex: 0 0 calc(50% - 20px);
 }
+
+.row > .project-card {
+    margin-bottom: 50px;}
 
 .project-card:hover {
   transform: translateY(-5px);
 }
 
 .project-preview {
-  height:500px;
+  height:450px;
   display:flex;
   align-items: center;
 }
@@ -455,6 +478,33 @@ footer .social-links a:hover {
     display: none;
   }
   .pink-bg-container {
-  background-color: white;
+    background-color: white;
+  }
+  .project-card {
+    flex: 0 0 100% !important; 
+    margin-bottom: 10px;
+  }
+  .row {
+    flex-direction: column;
+    gap: 30px 0; 
+  }
+  .profile-container {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 20px !important;
+  }
+  .hero-info,
+  .into-text,
+  .hero {
+    width: 100% !important;
+    flex: unset !important;
+  }
+  .main-layout {
+    grid-template-columns: 1fr !important;
+    padding: 20px;
+    gap: 20px;
+  }
+  .hero {
+    width: 100% !important;
   }
 }
