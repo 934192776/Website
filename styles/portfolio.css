@@ -357,11 +357,13 @@ p {
 .content {
   margin: 30px;
 }
-
+.content a {
+  text-decoration: none;
+  color:#474545;
+}
 .btn-branding {
   font-size: 28px;
 }
-
 
 .project-desciption {
   padding: 120px 60px;
@@ -477,6 +479,59 @@ footer .social-links a:hover {
   .resume-card {
     display: none;
   }
+  .resume-card h2 { 
+    font-size: 26px;
+  }
+  .resume-card h3 { 
+    font-size: 18px;
+  }
+  
+  .hero h1 {
+    font-size: 23px; 
+    margin-bottom: 10px;
+  }
+
+  .resume .contact {
+    text-align: center;
+  }
+  .resume .contact h1 {
+    font-size: 28px;
+  }
+  .resume .contact h2 {
+    font-size: 20px;
+  }
+ .resume-container .resume {
+    margin-bottom: 1px !important;
+  }
+  
+  .resume.resume-tools,
+  .resume.resume-tools h1.one-column-list,
+  .resume.resume-tools p,
+  .resume.resume-tools h1,
+  .resume.resume-tools h2,
+  .resume.resume-tools h3 {
+    text-align: left !important;
+  }
+  .resume-content,
+  .resume.resume-tools,
+  .resume-content .one-column-list {
+    max-width: 100% !important;
+  }
+  .resume.resume-tools h1.one-column-list {
+    font-size:30px; 
+  }
+  .resume-content h1 {
+  font-size:30px; 
+  margin-bottom: 2px;
+  }
+  .resume-content h2 {
+  font-size:20px; 
+  margin-bottom: 2px;
+  }
+  .resume-content h3 {
+  font-size:20px; 
+  }
+
   .pink-bg-container {
     background-color: white;
   }
@@ -502,7 +557,7 @@ footer .social-links a:hover {
     text-align: center !important;
     width: 100% !important;
   }
-.about-page .resume-card {
+  .about-page .resume-card {
     display: block !important;
     margin-top: 20px !important;
     width: 100% !important;
