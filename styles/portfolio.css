@@ -41,6 +41,14 @@ h3.text-center a {
   text-decoration: none;
 }
 
+.top-nav ul { 
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 4px #ede2ed; 
+  max-width: 100%;
+  gap:60px;
+}
+
 p {
   font-weight: normal;
   font-size: 14px;
@@ -121,7 +129,6 @@ p {
 }
 
 .pink-bg-container{
-  color: rgb(87, 82, 82);
   padding: 14px;
   border-radius: 20px;
   display: flex;
@@ -452,7 +459,7 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 44px;
     line-height: 1.5;
