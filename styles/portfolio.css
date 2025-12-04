@@ -482,7 +482,6 @@ footer .social-links a:hover {
     padding: 0;
     text-align: center;
   }
- 
   .resume-card {
     display: none;
   }
@@ -492,15 +491,14 @@ footer .social-links a:hover {
   .resume-card h3 { 
     font-size: 18px;
   }
-.resume-container {
+  .resume-container {
     display: block !important;
   }
-
+  
   .hero h1 {
     font-size: 23px; 
     margin-bottom: 10px;
   }
-
   .resume .contact {
     text-align: center;
   }
@@ -510,7 +508,7 @@ footer .social-links a:hover {
   .resume .contact h2 {
     font-size: 20px;
   }
- .resume-container .resume {
+  .resume-container .resume {
     margin-bottom: 20px !important;
  }
 
@@ -543,6 +541,9 @@ footer .social-links a:hover {
     margin: 0 auto;
     padding: 10px 0 30px;
   }
+  .project-info {
+    margin-top: -30px;
+  }
   .row {
     flex-direction: column;
     gap: 30px 0; 
@@ -572,6 +573,10 @@ footer .social-links a:hover {
   .hero {
     width: 100% !important;
     flex: unset !important;
+  }
+  .into-text h1 {
+    font-size: 20px;
+    margin-top: -20px;
   }
   .main-layout {
     grid-template-columns: 1fr !important;
