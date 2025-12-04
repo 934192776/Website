@@ -514,7 +514,6 @@ footer .social-links a:hover {
     margin-bottom: 20px !important;
  }
 
-  
   .resume.resume-tools h1.one-column-list {
     font-size:30px; 
   }
@@ -531,10 +530,18 @@ footer .social-links a:hover {
   }
   .pink-bg-container {
     background-color: white;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
   .project-card {
     flex: 0 0 100% !important; 
     margin-bottom: 10px;
+  }
+  .project-card img {
+    width: 90% !important;
+    margin: 0 auto;
+    padding: 10px 0 30px;
   }
   .row {
     flex-direction: column;
